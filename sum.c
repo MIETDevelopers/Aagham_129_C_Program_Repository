@@ -1,4 +1,4 @@
- //A basic C Program to calculate sum of two numbers.				© Ishav Verma 18/March/2021
+ //A basic C Program to calculate sum of two numbers.				
 #include<stdio.h>
 int main(){
 	int number1, number2, sum;
