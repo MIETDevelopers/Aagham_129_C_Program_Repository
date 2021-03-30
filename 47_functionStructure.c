@@ -1,6 +1,4 @@
-//Function implementation which returns a structure.
-
-#include <stdio.h>//Pre Process directive to include standard input output functions header file
+#include <stdio.h>
 struct student {
    char name[50];
    int age;
@@ -24,4 +22,10 @@ int main() {
    display(s1); // passing struct as an argument
 
    return 0;
+}
+
+void display(struct student s) {
+   printf("\nDisplaying information\n");
+   printf("Name: %s", s.name);
+   printf("\nAge: %d", s.age);
 }
